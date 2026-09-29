@@ -34,5 +34,6 @@ every approach, links its file, and marks the current best.
 | 01 | Contains Duplicate | Easy       | `solutions/01-contains-duplicate/`  |
 | 02 | Valid Anagram      | Easy       | `solutions/02-valid-anagram/`       |
 | 03 | Two Sum            | Easy       | `solutions/03-two-sum/`             |
+| 04 | Group Anagrams     | Medium     | `solutions/04-group-anagrams/`      |
 
-Solved: **3**
+Solved: **4**
