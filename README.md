@@ -1,46 +1,36 @@
 # NeetCode — DSA Practice
 
-My personal Data Structures & Algorithms practice repo, organized around the [NeetCode 150](https://neetcode.io/practice) roadmap.
+My solutions to the [NeetCode 150](https://neetcode.io/practice), written and pushed
+as I solve them.
 
-## Structure
+## How it's organized
 
-Problems are grouped by topic. Each problem lives in its own folder with notes and a solution:
+Everything lives in one `solutions/` folder. Each problem is a numbered subfolder
+(in the order I solved it):
 
 ```
-<NN>-<topic>/
-└── <PPPP>-<problem-slug>/
-    ├── README.md      # problem summary, approach, complexity
-    └── solution.<ext> # the code
+solutions/
+└── NN-problem-name/
+    ├── notes.md       # problem, approaches, complexity
+    └── solution.py    # the code (can hold more than one approach)
 ```
 
-- `NN`   — topic order (see below)
-- `PPPP` — LeetCode problem number (zero-padded)
+- `NN` — solve order (01, 02, 03, ...)
+- Grab the whole `solutions/` folder in one download to get everything.
 
-## Topics
+### Multiple solutions per problem
 
-| #  | Topic                | Folder                      |
-|----|----------------------|-----------------------------|
-| 01 | Arrays & Hashing     | `01-arrays-and-hashing/`    |
-| 02 | Two Pointers         | `02-two-pointers/`          |
-| 03 | Sliding Window       | `03-sliding-window/`        |
-| 04 | Stack                | `04-stack/`                 |
-| 05 | Binary Search        | `05-binary-search/`         |
-| 06 | Linked List          | `06-linked-list/`           |
-| 07 | Trees                | `07-trees/`                 |
-| 08 | Tries                | `08-tries/`                 |
-| 09 | Heap / Priority Queue| `09-heap-priority-queue/`   |
-| 10 | Backtracking         | `10-backtracking/`          |
-| 11 | Graphs               | `11-graphs/`                |
-| 12 | Advanced Graphs      | `12-advanced-graphs/`       |
-| 13 | 1-D Dynamic Programming | `13-1d-dp/`              |
-| 14 | 2-D Dynamic Programming | `14-2d-dp/`              |
-| 15 | Greedy               | `15-greedy/`                |
-| 16 | Intervals            | `16-intervals/`             |
-| 17 | Math & Geometry      | `17-math-and-geometry/`     |
-| 18 | Bit Manipulation     | `18-bit-manipulation/`      |
+A problem is never "done". When I find a cleaner or faster approach later, I add it
+**next to the old one** instead of replacing it:
+
+- `notes.md` lists every approach (Approach 1, Approach 2, ...) and marks the current best.
+- `solution.py` keeps each approach as its own method so nothing gets lost.
 
 ## Progress
 
-Solved: **1**
+| #  | Problem            | Difficulty | Folder                              |
+|----|--------------------|------------|-------------------------------------|
+| 01 | Contains Duplicate | Easy       | `solutions/01-contains-duplicate/`  |
+| 02 | Valid Anagram      | Easy       | `solutions/02-valid-anagram/`       |
 
-<!-- progress table auto-updated as problems are added -->
+Solved: **2**
