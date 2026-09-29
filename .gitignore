@@ -1,0 +1,17 @@
+# Compiled / build
+*.class
+*.o
+*.out
+*.exe
+a.out
+__pycache__/
+*.pyc
+
+# IDE / editor
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
