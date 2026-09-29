@@ -1,4 +1,4 @@
-# NeetCode — DSA Practice
+# NeetCode 150 — DSA Practice
 
 My solutions to the [NeetCode 150](https://neetcode.io/practice), written and pushed
 as I solve them.
