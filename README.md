@@ -35,5 +35,6 @@ every approach, links its file, and marks the current best.
 | 02 | Valid Anagram      | Easy       | `solutions/02-valid-anagram/`       |
 | 03 | Two Sum            | Easy       | `solutions/03-two-sum/`             |
 | 04 | Group Anagrams     | Medium     | `solutions/04-group-anagrams/`      |
+| 05 | Top K Frequent Elements | Medium | `solutions/05-top-k-frequent-elements/` |
 
-Solved: **4**
+Solved: **5**
