@@ -41,6 +41,6 @@ Problems are grouped by topic. Each problem lives in its own folder with notes a
 
 ## Progress
 
-Solved: **0**
+Solved: **1**
 
 <!-- progress table auto-updated as problems are added -->
