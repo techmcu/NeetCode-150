@@ -11,20 +11,21 @@ Everything lives in one `solutions/` folder. Each problem is a numbered subfolde
 ```
 solutions/
 └── NN-problem-name/
-    ├── notes.md       # problem, approaches, complexity
-    └── solution.py    # the code (can hold more than one approach)
+    ├── notes.md            # problem, approaches, complexity
+    ├── <approach-a>.py     # one clean solution per file
+    └── <approach-b>.py
 ```
 
 - `NN` — solve order (01, 02, 03, ...)
+- Each approach is its **own file**, named after the idea (`hashset.py`, `sorting.py`, ...),
+  so every file is a single, easy-to-read solution.
 - Grab the whole `solutions/` folder in one download to get everything.
 
 ### Multiple solutions per problem
 
 A problem is never "done". When I find a cleaner or faster approach later, I add it
-**next to the old one** instead of replacing it:
-
-- `notes.md` lists every approach (Approach 1, Approach 2, ...) and marks the current best.
-- `solution.py` keeps each approach as its own method so nothing gets lost.
+as a **new file** next to the old ones instead of replacing them. `notes.md` lists
+every approach, links its file, and marks the current best.
 
 ## Progress
 

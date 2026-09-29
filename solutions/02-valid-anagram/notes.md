@@ -24,7 +24,7 @@ Output: false
 
 ## Approaches
 
-### Approach 1 — Frequency count (current best)
+### Approach 1 — Frequency count (current best) → [`frequency_count.py`](./frequency_count.py)
 
 If the lengths differ they can't be anagrams. Otherwise count how many times each
 character appears in `s`, then walk through `t` subtracting from those counts. If a
@@ -34,7 +34,7 @@ so it's not an anagram.
 - Time: O(n)
 - Space: O(1) — at most 26 lowercase letters in the map
 
-### Approach 2 — Sorting
+### Approach 2 — Sorting → [`sorting.py`](./sorting.py)
 
 Sort both strings; anagrams become identical once ordered, so just compare them.
 Shorter to write but slower.
@@ -42,7 +42,7 @@ Shorter to write but slower.
 - Time: O(n log n)
 - Space: O(n) for the sorted copies
 
-<!-- Add a new approach here whenever you find one. Keep the old ones. -->
+<!-- New approach later? Add a new .py file and list it here. Keep the old ones. -->
 
 ## Notes
 

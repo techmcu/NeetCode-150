@@ -24,7 +24,7 @@ Output: false         # all distinct
 
 ## Approaches
 
-### Approach 1 — Hash set (current best)
+### Approach 1 — Hash set (current best) → [`hashset.py`](./hashset.py)
 
 Keep a set of values we've already seen. For each number, if it's already in the set
 a duplicate exists; otherwise add it. Returns early on the first repeat.
@@ -32,7 +32,7 @@ a duplicate exists; otherwise add it. Returns early on the first repeat.
 - Time: O(n)
 - Space: O(n)
 
-### Approach 2 — Sorting
+### Approach 2 — Sorting → [`sorting.py`](./sorting.py)
 
 Sort the array so equal values sit next to each other, then check adjacent pairs.
 Uses less extra memory but is slower and mutates the input.
@@ -40,7 +40,7 @@ Uses less extra memory but is slower and mutates the input.
 - Time: O(n log n)
 - Space: O(1) extra (in-place sort)
 
-<!-- Add a new approach here whenever you find one. Keep the old ones. -->
+<!-- New approach later? Add a new .py file and list it here. Keep the old ones. -->
 
 ## Notes
 
