@@ -36,5 +36,6 @@ every approach, links its file, and marks the current best.
 | 03 | Two Sum            | Easy       | `solutions/03-two-sum/`             |
 | 04 | Group Anagrams     | Medium     | `solutions/04-group-anagrams/`      |
 | 05 | Top K Frequent Elements | Medium | `solutions/05-top-k-frequent-elements/` |
+| 06 | String Encode and Decode | Medium | `solutions/06-string-encode-and-decode/` |
 
-Solved: **5**
+Solved: **6**
